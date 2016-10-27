@@ -1,30 +1,106 @@
-body{
-	background-color: lightgrey; 
+body {
+    
+    background: url("http://moviehodgepodge.files.wordpress.com/2013/10/wes_anderson_collection_2.jpg")
+        no-repeat center center fixed;
+  -webkit- background-size: cover;
+    -moz- background-size: cover;
+    -o- background-size: cover;
+    background-size: cover;
 }
 
-.innerContainer{
-		float: left;
-		margin-top: %;
-		margin-left: 25%;
-		width:700px;
-		height: 500px;
-		background: grey;
-		padding: 30px;
+.grid{
+    width:600px;
+    height: 500px;
+    margin: 0 auto;
+   /* background-color: #fff;*/
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+   /* border: 2px solid #cbcbcb;*/
+  /*  box-shadow: 10px 15px 5px #cbcbcb;*/
+    opacity: .7;
+}
 
-		text-align: center;
+.grid h1{
+
+    font-family: sans-serif;
+  /*  background-color: #add8e6;*/
+    font-size: 60px;
+    text-align: center;
+    color: #ff0000;
+    padding: 2px 0px;
+    border-radius: 50px;
+    opacity: .7;
+}
+
+.grid #question{
+    font-family: sans-serif;
+    font-size: 30px
+    color:#5a6772;
+}
+
+.button{
+    margin-top: 30px;
 
 }
 
-#text1{
-	color: blue;
-	font-size: 60px;
+#btn0, #btn1, #btn2, #btn3 {
 
-	text-shadow: 2px 10px 10px teal;
+   /* background-color: #add8e6;*/
+    width: 250px;
+    font-size: 20px;
+    color: #ff0000;
+   /* border: 1px solid #1d3c6a;*/
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
 
-	padding: 0px 2px 0px 2px;
 }
 
-.heading{
-	font-size: 20px;
-	padding: 20px;
+#progress{
+    color: #ff0000;
+    font-size: 30px;
 }
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    cursor: pointer;
+    background-color:  #008080;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+
+    outline: 0;
+}
+
+#contain{
+
+    background-color: white;
+    width:250px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px teal;
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 20px;
+    color: #ffd700;
+    opacity: .8;
+
+}
+
+#question{
+    color: #ffd700;;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px #ff0000;
+    opacity: .8;
+}
+
+
+
+
+
+
+
+
